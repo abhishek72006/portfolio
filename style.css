@@ -1,5 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 :root {
 	font-size: 16px;
+}
+html{
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	overflow-x: hidden;
+	font-family: Heebo, sans-serif;
 }
 
 #app {
@@ -11,3 +20,50 @@
 	margin-top: 60px;
 	font-size: 2rem;
 }
+.wrapper{
+	position: relative;
+width: 1152px;
+min-height: 100vh;
+margin: auto;
+color: #21243D;
+}
+.title{
+		position: absolute;
+	width: 437px;
+	height: 57px;
+	left: 148px;
+	top: 228px;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 44px;
+	line-height: 60px;
+	/* or 136% */
+	letter-spacing: 1.5px;
+}
+.title1{
+		position: absolute;
+	width: 635px;
+	height: 60px;
+	left: 47px;
+	top: 285px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 60px;
+	/* identical to box height, or 250% */
+	letter-spacing: 3.5px;
+}
+.text{
+		position: absolute;
+	width: 491px;
+	height: 72px;
+	left: 148px;
+	top: 373px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 23px;
+
+/* Dark Color */
+}
+
