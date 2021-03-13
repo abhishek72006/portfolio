@@ -82,3 +82,45 @@ color: #21243D;
 	top: 485px;
 
 }
+.title2{
+		position: absolute;
+	width: 57px;
+	height: 43px;
+	left: 856px;
+	top: 27px;
+
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29px;
+	text-align: right;
+}
+.title3{
+		position: absolute;
+	width: 106px;
+	height: 43px;
+	left: 882px;
+	top: 27px;
+
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29px;
+	text-align: right;
+}
+.title4{
+		position: absolute;
+	width: 71px;
+	height: 43px;
+	left: 1021px;
+	top: 27px;
+
+	font-family: Heebo;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 29px;
+	text-align: right;
+}
