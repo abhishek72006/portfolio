@@ -9,6 +9,7 @@ body{
 	margin: 0;
 	overflow-x: hidden;
 	font-family: Heebo, sans-serif;
+	background: linear-gradient(to blue, purple, white);
 }
 
 #app {
