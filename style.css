@@ -2,10 +2,10 @@
 :root {
 	font-size: 16px;
 }
-html{
+html {
 	box-sizing: border-box;
 }
-body{
+body {
 	margin: 0;
 	overflow-x: hidden;
 	font-family: Heebo, sans-serif;
@@ -21,15 +21,15 @@ body{
 	margin-top: 60px;
 	font-size: 2rem;
 }
-.wrapper{
+.wrapper {
 	position: relative;
-width: 1152px;
-min-height: 100vh;
-margin: auto;
-color: #21243D;
+	width: 1152px;
+	min-height: 100vh;
+	margin: auto;
+	color: #21243d;
 }
-.title{
-		position: absolute;
+.title {
+	position: absolute;
 	width: 437px;
 	height: 57px;
 	left: 130px;
@@ -41,8 +41,8 @@ color: #21243D;
 	/* or 136% */
 	letter-spacing: 1.5px;
 }
-.title1{
-		position: absolute;
+.title1 {
+	position: absolute;
 	width: 635px;
 	height: 60px;
 	left: 25px;
@@ -54,16 +54,15 @@ color: #21243D;
 	/* identical to box height, or 250% */
 	letter-spacing: 3.5px;
 }
-.my-image-container{
-		position: absolute;
+.my-image-container {
+	position: absolute;
 	width: 310px;
 	height: 320px;
 	left: 790px;
 	top: 140px;
-
 }
-.text{
-		position: absolute;
+.text {
+	position: absolute;
 	width: 491px;
 	height: 72px;
 	left: 100px;
@@ -73,18 +72,34 @@ color: #21243D;
 	font-size: 16px;
 	line-height: 23px;
 
-/* Dark Color */
+	/* Dark Color */
 }
-.download-resume{
-		position: absolute;
-	width: 208px;
-	height: 47px;
+.download-resume {
+	position: absolute;
+	/* width: 208px; */
+	/* height: 47px; */
 	left: 148px;
 	top: 485px;
 
+	border: 0;
+	background-color: transparent;
+	background-color: orangered;
+	padding: 25px;
+	border-radius: 25px;
+
+	font-size: 32px;
+
+	color: white;
+
+	text-decoration: none;
 }
-.title2{
-		position: absolute;
+
+.download-resume:hover {
+	text-decoration: underline;
+}
+
+.title2 {
+	position: absolute;
 	width: 57px;
 	height: 43px;
 	left: 856px;
@@ -97,8 +112,8 @@ color: #21243D;
 	line-height: 29px;
 	text-align: right;
 }
-.title3{
-		position: absolute;
+.title3 {
+	position: absolute;
 	width: 106px;
 	height: 43px;
 	left: 882px;
@@ -111,8 +126,8 @@ color: #21243D;
 	line-height: 29px;
 	text-align: right;
 }
-.title4{
-		position: absolute;
+.title4 {
+	position: absolute;
 	width: 71px;
 	height: 43px;
 	left: 1021px;
